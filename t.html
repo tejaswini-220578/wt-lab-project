@@ -142,57 +142,7 @@
              <input type="tel" placeholder="Enter Expected Price"><br><br>
              <button type="submit">Submit Crop</button>
       </form>
-      <div id="cropMsg" class="msg"></div>
-    </div>
-
-    
-    <div id="gov" class="card">
-      <h2>Government Rates (MSP)</h2>
-      <ul id="rateList"></ul>
-    </div>
-  </div>
-
-  <script>
-    // Show only the selected section
-    function showSection(sectionId) {
-      const sections = document.querySelectorAll('.card');
-      sections.forEach(sec => sec.classList.remove('active')); // hide all
-      document.getElementById(sectionId).classList.add('active'); // show chosen
-    }
-
-    // Farmer Registration
-    document.getElementById("farmerForm").addEventListener("submit", function(e){
-      e.preventDefault();
-      const name = document.getElementById("name").value;
-      document.getElementById("registerMsg").innerText = 
-        "✅ Farmer " + name + " registered successfully!";
-    });
-
-    // Crop Listing
-    document.getElementById("cropForm").addEventListener("submit", function(e){
-      e.preventDefault();
-      const crop = document.getElementById("cropName").value;
-      const qty = document.getElementById("quantity").value;
-      document.getElementById("cropMsg").innerText = 
-        "🌱 Crop " + crop + " (" + qty + " kg) submitted!";
-    });
-
-    // Government Rates (Static Example)
-    const rates = [
-      { crop: "Wheat", price: "₹2100/quintal" },
-      { crop: "Rice", price: "₹2300/quintal" },
-      { crop: "Cotton", price: "₹6200/quintal" }
-    ];
-    const rateList = document.getElementById("rateList");
-    rates.forEach(r => {
-      const li = document.createElement("li");
-      li.textContent = r.crop + " → " + r.price;
-      rateList.appendChild(li);
-    });
-  </script>
-</body>
-</html> -->
-
+      <div id="cropMsg" c
 <!DOCTYPE html>
 <html lang="en">
 <head>
