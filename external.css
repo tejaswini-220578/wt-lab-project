@@ -1,0 +1,19 @@
+<style>
+    .tab table{
+          border: "1";
+          border-color: solid black;
+          width: 60%;
+          margin : 2px;
+          font-size: 1.05em;
+    }
+    .tab th,.tab {
+         border : 1px solid black;
+         padding :12 px;
+         text-align:center;
+         
+
+    }
+    .tab tr{
+           background-color :aqua;
+    }
+</style>
