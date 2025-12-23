@@ -181,8 +181,25 @@
         margin:5px;
         background-color:white
 
+      } 
+      .iframe-container{
+          display:flex;
+          gap: 10px;
+          flex wrap: wrap;
+      }
+      .iframe-container iframe{
+          border-width: 20px;
+          height:500px;
+          width: 50%;
+          border: 2px solid black;
       }
     </style>
+    <div class="iframe-container">
+    <iframe src="f.pdf" title="description of the farmers" class="sty"> 
+    </iframe>
+    <iframe src="https://www.bing.com/ck/a?!&&p=e83658bb252ecc386e18dede5a2dd95b8d8bd6e798d762fb96c49f5b31c82a23JmltdHM9MTc2NjQ0ODAwMA&ptn=3&ver=2&hsh=4&fclid=11f25278-2ff2-63ce-328d-47162e5f623d&psq=giev+one+link+about+farmers+losses&u=a1aHR0cHM6Ly9rcmlzaGlqYWdyYW4uY29tL2Jsb2cvcG9zdC1oYXJ2ZXN0LWxvc3Nlcy1pbi1pbmRpYW4tYWdyaWN1bHR1cmUtYS1oaWRkZW4tY2hhbGxlbmdlLXdpdGgtZmFyLXJlYWNoaW5nLWltcGFjdHMtY2F1c2VzLWltcGFjdHMtYW5kLXNvbHV0aW9ucy8"  class="sty">
+    </iframe>
+    </div>
     <!-- Crop Listing -->
     <div id="crop" class="card">
       <h2>Crop Listing</h2>
@@ -252,6 +269,7 @@
       rateList.appendChild(li);
     });
   </script>
+   
   <table border="1" bordercolor="black ">
     <caption bgcolor="green ">FORMERS  DATA</caption>
     <thead>
