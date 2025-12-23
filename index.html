@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Farmer–Government Portal</title>
-  <link rel="stylesheet"  type="text/css" href="external.css"> </a>
+  <link rel="stylesheet"  href="external.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -89,24 +89,40 @@
       font-size: 1.05em;
       color: #333;
     }
-
-    .cls {
-          border: "1";
-          border:1px solid black;
-          width :60%;
-          margin: 20px auto;
+     .mini table {
+             border: 1px solid black;
+             border-collapse: collapse;
+             margin: 25 px 0;
+             font-size: 0.9em;
+             font-family:'calibri';
+             min-width:400px;
+            
+             width:100;
         }
-    .cls thead, .cls.td   {
-           border: solid black;
+      .mini td ,.mini tr  {
+          
            background-color:#52910b; 
+           border-width:10px;
            padding : 10px;
            text-align:center;
            font-size: 1.05em;
-
+           border: 1px solid black;
           }
-    
-    </style>
+    .mini thead{
+          border : 1px solid black;
+          font-size:1em;
+          color:orchid;
+    }
+     .mini h5{
+         font-family:'Franklin';
+         color:aqua;
+            
+     }
+  </style>
 </head>
+
+
+
 <body>
   <header>
     <h1>Farmer–Government Portal</h1>
@@ -167,8 +183,6 @@
 
       }
     </style>
-    <!-- iframes -->
-     <iframe  src=" t.html" title="descriotion"> </iframe>
     <!-- Crop Listing -->
     <div id="crop" class="card">
       <h2>Crop Listing</h2>
@@ -238,165 +252,159 @@
       rateList.appendChild(li);
     });
   </script>
-  <table border="1"  bordercolor="black">
+  <table border="1" bordercolor="black ">
+    <caption bgcolor="green ">FORMERS  DATA</caption>
     <thead>
-      <tr bgcolor="solid-green">
-        <th>NAME</th>
-        <th>PHONE NUMBER</th>
-        <TH>CROP NAME</TH>
-        <TH>ACRES</TH>
-        <TH>EXPECTED RATE</TH>
-        <TH>LOCATION</TH>
-      </tr>
-      <tr  bgcolor="lime">
-        <th >k.Duraganageswara rao</th>
-        <th>8333456712</th>
-        <TH>corn</TH>
-        <TH>4 acres</TH>
-        <TH>450000</TH>
-        <TH>Laksmipuram</TH>
-      </tr>
-      <tr bgcolor="solid-lime">
-        <th>k.venkateswara rao</th>
-        <th>9391858785</th>
-        <TH>Rice</TH>
-        <TH>2 acres</TH>
-        <TH>200000</TH>
-        <TH>patha majeru</TH>
-      </tr>
-      <tr bgcolor="solid-lime">
-        <th>k.veera braham</th>
-        <th>9742976534</th>
-        <TH>black gram</TH>
-        <TH>1 acre</TH>
-        <TH>200000</TH>
-        <TH>kotha majeru</TH>
-      </tr>
-      <tr bgcolor="solid-lime">
-        <th>t.pandu</th>
-        <th>9182297827</th>
-        <TH>rice</TH>
-        <TH>1 acre</TH>
-        <TH>120000</TH>
-        <TH>challapalli</TH>
-      </tr>
-      <tr bgcolor="solid-lime">
-        <th>T.prasad</th>
-        <th>778013355</th>
-        <TH>green gram</TH>
-        <TH>3 acre</TH>
-        <TH>250000</TH>
-        <TH>Lankapalli</TH>
+      <tr bgcolor="LightGray">
+         <th>NAME</th>
+         <th>CROP NAME</th>
+         <th>ACRES</th>
+         <th>MOBILE NUMBERS</th>
+         <th>VILLAGE </th>
+         <th>EXPECTED RATE</th>
       </tr>
     </thead>
+      <tr bgcolor="LightCyan">
+         <td >k.Durga Nageswara Rao</td>
+         <td>Rice</td>
+         <td>2 acres</td>
+         <td>9391858785</td>
+         <td>patha majeru</td>
+         <td>200000</td>
+      </tr>
+      <tr bgcolor="LIGHTCYAN">
+         <td>k.Venkateswara Rao</td>
+         <td>black grams</td>
+         <td> 1 acres</td>
+         <td>9397644896</td>
+         <td>kotha majeru</td>
+         <td>1,50000</td>
+      </tr>
+      <tr bgcolor="LIGHTCYAN">
+         <td>k.veera Braham </td>
+         <td>Green grams </td>
+         <td>3 acres</td>
+         <td>8754790234</td>
+         <td>challapalli</td>
+         <td>2,50000</td>
+      </tr>
+       <tr bgcolor="LIGHTCYAN">
+         <td>T.pandu </td>
+         <td>wheat </td>
+         <td>3 acres</td>
+         <td>8754768784</td>
+         <td>Lakshmipuram</td>
+         <td>2,50000</td>
+      </tr>
+       <tr  bgcolor="lightcyan">
+         <td>T.prasad </td>
+         <td>besan </td>
+         <td> 2 acres</td>
+         <td>7864548234</td>
+         <td>lankapalli</td>
+         <td>3,50000</td>
+      </tr>
     
   </table>
-
-  <!-- INTERNAL CSS -->
-  <table class="cls">
+  <h4 > Table Creation By Using External CSS</h4>
+  <table  class="cs">
+    <caption >PESTICIDES  DATA</caption>
     <thead >
-      <tr>
-        <td>NAME OF PESTICIDE</td>
-        <td>CHEMICAL COMPOSITION</td>
-        <td>ACTIVE INGREDIENT </td>
-        <td>CROP NAME</td>
-        <td>RATIO</td>
-        <td>AGAINST</td>
-      </tr>
-      <tr >
-        <td >Acephate/asator/starthene</td>
-        <td>o-s dimethyl</td>
-        <td>75% WP</td>
-        <td>Rice,blackgram</td>
-        <td>0.75-1g/ltr</td>
-        <td>aphids,jassids,bollworms</td>
-      </tr>
-      <tr>
-        <td>Actara</td>
-        <td>Thiamethoxam</td>
-        <td>25%</td>
-        <td>corn</td>
-        <td>0.2g/l</td>
-        <td>sucking pest, aphids ,hoppers</td>
-      </tr>
-      <tr >
-        <td>Avaunt</td>
-        <td>Imidacloripid</td>
-        <td>70% wg</td>
-        <td>blackgram</td>
-        <td>0.5-0.8ml/ltr</td>
-        <td>Sucking pests</td>
-      </tr>
-      <tr >
-        <td>Confidor</td>
-        <td>Indoxacarb</td>
-        <td>15.8%EC</td>
-        <td>greengream,rice</td>
-        <td>0.25-0.5ml/ltr</td>
-        <td>borer/caterpillar</td>
-      </tr>
-      <tr>
-        <td>corogen</td>
-        <td>chloryphisis</td>
-        <td>20% EC</td>
-        <td>corn,rice,blackgrams</td>
-        <td>1.5-2.5ml/l</td>
-        <td>leaf hopper,bph,cutworm</td>
+      <tr  >
+         <th > CROP NAME</th>
+         <th>  SOIL  </th>
+         <th >WATER REQUIREMENT</th>
+         <th >TEMPRATURE</th>
       </tr>
     </thead>
-  </table>
-  <!-- table by using external css -->
-  <table class="tab">
-     
-      <TR>
-        <TH>S.NO</TH>
-        <TH>CROP</TH>
-        <TH>CONDITIONS FOR  GROWTH</TH>
-        <TH>AREAS</TH>
-        <th>KEY FACTS </th>
-      </TR>
-      <TR>
-        <td> 1 </td>
-        <TD>Rice (kharf)</TD>
-        <td>.high temprature
-            .high humidity with annual
-            .requires irrigation in the areas of less rainfall
-          </td>
-          <td>it is grown in plains of north& north east india,coastal areas and deltaic reason</td>
-          <td>Development of dense network of canal irrigation  and tube wells.</td>
-      </TR>
-      <tr>
-          <td> 2 </td>
-          <td> Black gram</td>
-          <td>.cool growing season and bright sunshine at the time if ripening.
-              . rainfall -50 to 70 cm,evemly distributed over the growning season.
-          </td>
-          <td>
-              .2 important zones ganga-satluz plans in the NW and black soil region.
-              .major states : punjab,haryana,uttar pradesh,bihar.
-          </td>
-          <td>
-               .second more important crop the country.
-               .major food crop of north and north west parts of india.
-          </td>
+      <tr  >
+         <td >wheat</ttd>
+         <td>clay loam or loam texture</td>
+         <td>440-460</td>
+         <td>grmination:20-25</td>
       </tr>
-      <TR>
-        <TD>  3 </TD>
-        <TD> green gram</TD>
-        <td> .warm dry conditions,well drained loamy soil (ph 6.0 -7.5) ,
-               well and moderate  water ,avoiding waterlogging ,with  proper land prep.
-        </td>
-        <td>Green gram thrives in india ,especially in Rajasthan,Madhya praesh,
-             Maharastra,Karnataka ,Odisha ,Gujarat  and Andhra pradesh.
-        </td>
-        <td>
-             Green gram is a nutrient-dense legume,fiber,antioxidants 
-             magnesiun and iron ,supporting heart health.
-          
-        </td>
-      </TR>
-     
+      <tr>
+         <td> Rice</td>
+         <td>clay or clay loam</td>
+         <td>heavy soil 1000-1500</td>
+         <td>Average :- 21-37/td>
+         
+      </tr>
+      <tr  >
+        <td> black gram</td>
+         <td>well drained sandy loam or slit loam soil</td>
+         <td>500-800</td>
+         <td>warm weather crop</td>
+      </tr>
+       <tr >
+         <td>green gram</td>
+         <td>low fertility ,good drainage</td>
+         <td>500-650</td>
+         <td>Average: 20-28</td>
+         
+      </tr>
+       <tr >
+         <td>corn</td>
+         <td>black soil </td>
+         <td> 1700-1800</td>
+         <td>Average : 26-32</td>
+      </tr>
+    
   </table>
-
-  </body>
+  <h4 class="mini"> Table Creation By Using Internal CSS</h4>
+  <table class="mini" >
+    <caption >PESTICIDES  DATA</caption>
+    <thead class="mini">
+      <tr  class="mini">
+         <th> PESTICIDE NAME</th>
+         <th>ACTIVE INGREDIENT</th>
+         <th>CHEMICAL GROUPS</th>
+         <th>RECOMMENDED DOSAGE /PER HA</th>
+         <th>AVERAGE LEVEL OF APPLICATION </th>
+         <th>EXCESS</th>
+      </tr>
+    </thead>
+      <tr  class="mini">
+         <td >Asataf</td>
+         <td>Acephate</td>
+         <td>op</td>
+         <td>800gms</td>
+         <td>1467</td>
+         <td>83.38</td>
+      </tr>
+      <tr  class="mini">
+         <td> Malathion</td>
+         <td>Mercapthonin</td>
+         <td>op</td>
+         <td>1000ml</td>
+         <td>1527</td>
+         <td>52.70</td>
+      </tr>
+      <tr class="mini">
+        <td>Sevein</td>
+         <td>Carbaryl </td>
+         <td>Carbmate </td>
+         <td>2000 gm</td>
+         <td>4199</td>
+         <td>109.95</td>
+      </tr>
+       <tr class="mini">
+         <td>Tatamida</td>
+         <td>Imidachloropid</td>
+         <td>Neonicotinyles</td>
+         <td>150ml</td>
+         <td>367</td>
+         <td>144.67</td>
+      </tr>
+       <tr class="mini">
+         <td>Trebone</td>
+         <td>Ethophenpx </td>
+         <td> sp</td>
+         <td>635 ml</td>
+         <td>1180</td>
+         <td>88.80</td>
+      </tr>
+    
+  </table>
+</body>
 </html>
